@@ -1,5 +1,5 @@
 # MarcellDavisOS
 Hallo, ich bin Marcell D'Avis. Seit 16 Jahren habe ich mein eigenes Betriebssystem.
 
-# Wieso MarcellDavisOS?
-Das ist einfach nur ein Spaß-Projekt zwischen mir und MagentaCoding
+# Ist MarcellDavisOS die Zukunft der TUI-basierten Betriebssysteme?
+Auf gar keinen Fall. Dies ist nichtmal ein richtiges Betriebssystem, nur ein Programm, welches vorgibt, ein Betriebssystem zu sein. Für ein richtiges Betriebssystem, siehe "MagentaOS Desktop" von MagentaCoding.
