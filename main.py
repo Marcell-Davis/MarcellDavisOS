@@ -81,6 +81,7 @@ if crash < 10:
     print("Ihr PC enthält keine 1&1 zertifizierte Produkte. Bitte ändern sie das. Arschloch")
     time.sleep(1)
     print("ERR_KERNEL_PANIC")
+    os.system('systemctl poweroff')
 
 os.system('cls' if os.name == 'nt' else 'clear')
 while True:
@@ -182,6 +183,21 @@ while True:
         print("Danke, dass sie MarcellD'AvisOS genutzt haben. Bis später.")
         break
 
+    # help
+    if action == "hilfe":
+        print("            H   H III L     FFFFF EEEEE")
+        print("            H   H  I  L     F     E    ")
+        print("            H   H  I  L     F     E    ")
+        print("            HHHHH  I  L     FFFF  EEEE ")
+        print("            H   H  I  L     F     E    ")
+        print("            H   H  I  L     F     E    ")
+        print("            H   H III LLLLL F     EEEEE")
+        print("----------------------------------------------------")
+        print("über:term..................Zeigt Infos über Terminal")
+        print("über:mdos...........Zeigt Infos über MarcellD'AvisOS")
+        print("herunterfahren........Fährt MarcellD'AvisOS herunter")
+        print("verbinden:google.com..Verbindet den PC an google.com")
+
     # Google
     if action == "verbinden:google.com":
         print("Verbunden an Modem via: Parallel")
@@ -279,6 +295,7 @@ while True:
                 print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                 time.sleep(1)
                 print("ERR_KERNEL_PANIC")
+                os.system('systemctl poweroff')
             elif search == "Apple II":
                 os.system('cls' if os.name == 'nt' else 'clear')
                 time.sleep(1)
@@ -315,6 +332,7 @@ while True:
                 print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                 time.sleep(1)
                 print("ERR_KERNEL_PANIC")
+                os.system('systemctl poweroff')
             elif search == "Commodore 64":
                 os.system('cls' if os.name == 'nt' else 'clear')
                 time.sleep(1)
@@ -351,6 +369,7 @@ while True:
                 print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                 time.sleep(1)
                 print("ERR_KERNEL_PANIC")
+                os.system('systemctl poweroff')
             else:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print("................................................................................")
@@ -418,6 +437,7 @@ while True:
                     print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                     time.sleep(1)
                     print("ERR_KERNEL_PANIC")
+                    os.system('systemctl poweroff')
                 elif selec_google_result == "2":
                     os.system('cls' if os.name == 'nt' else 'clear')
                     time.sleep(1)
@@ -454,6 +474,7 @@ while True:
                     print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                     time.sleep(1)
                     print("ERR_KERNEL_PANIC")
+                    os.system('systemctl poweroff')
                 elif selec_google_result == "3":
                     os.system('cls' if os.name == 'nt' else 'clear')
                     time.sleep(1)
@@ -489,4 +510,5 @@ while True:
                     time.sleep(1)
                     print("Ihr Modem hat nicht mehr mit dem PC kommuniziert. Schauen sie nach, ob der Parallelanschluss locker ist.")
                     time.sleep(1)
-                    print("ERR_KERNEL_PANIC")#
+                    print("ERR_KERNEL_PANIC")
+                    os.system('systemctl poweroff')
