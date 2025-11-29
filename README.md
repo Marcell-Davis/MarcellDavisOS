@@ -6,3 +6,5 @@ Auf gar keinen Fall. Dies ist nichtmal ein richtiges Betriebssystem, nur ein Pro
 
 # Werden hier offizielle Updates hochgeladen?
 Ja, hier werden die offiziellen Updates für MarcellDavisOS hochgeladen. [MagentaCoding](https://github.com/MagentaCoding) hat ein Fork von diesem Projekt gemacht und lädt inoffizielle Updates hoch, die auf V0.1A basieren. Find ich nicht okay, MagentaCoding.
+
+# Maunzi
