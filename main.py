@@ -14,7 +14,7 @@ today = date.today()
 crash = random.randint(0,100)
 architecture = platform.machine()
 ops = "MarcellD'AvisOS"
-version = "0.2A"
+version = "0.2.1A"
 cpu = platform.processor()
 ram_total = psutil.virtual_memory().total / (1024 ** 3)
 esc_pressed = False
@@ -45,7 +45,7 @@ print("               O   O     S")
 print("               O   O     S")
 print("                OOO  SSSS")
 print("----------------------------------------")
-print("MarcellD'AvisOS startet...         V0.2A")
+print("MarcellD'AvisOS startet...       V0.2.1A")
 time.sleep(5)
 
 # crash
@@ -103,7 +103,7 @@ while True:
             print("  T   E     R  R  M   M  I  N   N A   A L    ")
             print("  T   EEEEE R   R M   M III N   N A   A LLLLL")
             print("---------------------------------------------")
-            print("MarcellD'Avis Terminal                  V0.2A")
+            print("MarcellD'Avis Terminal                V0.2.1A")
             print("          (C) Copyright 2025 kyr3xx")
 
         # PC Info
@@ -184,7 +184,7 @@ while True:
             print("               O   O     S")
             print("                OOO  SSSS")
             print("----------------------------------------")
-            print("MarcellD'AvisOS fährt herunter...  V0.2A")
+            print("MarcellD'AvisOS fährt herunter...V0.2.1A")
             time.sleep(5)
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Danke, dass sie MarcellD'AvisOS genutzt haben. Bis später.")
@@ -205,6 +205,7 @@ while True:
             print("herunterfahren........Fährt MarcellD'AvisOS herunter")
             print("verbinden:google.com..Verbindet den PC an google.com")
             print("nichtgut.................Zeigt einen Crash-Screen an")
+            print("starten:calc..............Startet den Taschenrechner")
 
         # Google
         if action == "verbinden:google.com":
